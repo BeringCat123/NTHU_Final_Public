@@ -1,1 +1,1 @@
-  -L"D:/C Language/FINAL_PUBLIC/lib"  -lmap -lgui -la_star -lfind_way -lmingw32 -lSDL2main -lSDL2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+  -L"D:/C Language/FINAL_PUBLIC/lib"  -lmap -lgui -la_star -lfind_way -lfind_way_genetic -lmingw32 -lSDL2main -lSDL2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

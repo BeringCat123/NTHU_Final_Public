@@ -7,6 +7,7 @@
 #include"bool.h"
 #include"gui.h"
 #include"find_way.h"
+#include "find_way_genetic.h"
 
 extern const int cost[6];
 
@@ -44,8 +45,12 @@ int main(int argc, char **argv){
     if(!loadMedia(&gui_texture,"texture.bmp")){
         printf("SDL load inage error\n");
         exit(-3);
-    } 
-    final = find_way(map,&window,&screenSurface,&gui_texture);
+    }
+    if(map -> is_target){
+        final = find_way_genetic(map,&window,&screenSurface,&gui_texture);
+    }else{
+        final = find_way(map,&window,&screenSurface,&gui_texture);
+    }
     ptr = final;
     for(i =0;i < map-> y;i++){
         for(j = 0;j <map -> x;j++){
@@ -62,7 +67,7 @@ int main(int argc, char **argv){
         }
         show(map,&window,&screenSurface,&gui_texture);
         
-        if(!(times % 2)){
+        if(!(times % 5)){
             if(ptr && ptr -> next){
                 total_cost += (ptr -> node -> move_dir) == -1? 0:cost[ptr -> node -> move_dir];
                 printf("%d %d\n",ptr -> node -> move_dir,total_cost);
@@ -84,6 +89,15 @@ int main(int argc, char **argv){
                     for(j = ptr -> node -> x1;j <ptr -> node -> x2 + 1;j++){
                         map -> map[i][j] = 2;
                     }
+                }
+                if(ptr -> node -> angle == 0){
+                    map -> map[ptr -> node -> y1][ptr -> node -> x2] = 5;
+                }else if(ptr -> node -> angle == 90){
+                    map -> map[ptr -> node -> y1][ptr -> node -> x1] = 5;
+                }else if(ptr -> node -> angle == 180){
+                    map -> map[ptr -> node -> y2][ptr -> node -> x1] = 5;
+                }else if(ptr -> node -> angle == 270){
+                    map -> map[ptr -> node -> y2][ptr -> node -> x2] = 5;
                 }
             }
         }

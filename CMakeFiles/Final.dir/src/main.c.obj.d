@@ -67,4 +67,5 @@ CMakeFiles/Final.dir/src/main.c.obj: \
  D:/C\ Language/FINAL_PUBLIC/include/bool.h \
  D:/C\ Language/FINAL_PUBLIC/include/gui.h \
  D:/C\ Language/FINAL_PUBLIC/include/find_way.h \
- D:/C\ Language/FINAL_PUBLIC/include/a_star.h
+ D:/C\ Language/FINAL_PUBLIC/include/a_star.h \
+ D:/C\ Language/FINAL_PUBLIC/include/find_way_genetic.h
