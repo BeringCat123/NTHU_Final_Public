@@ -6,7 +6,8 @@ CMakeFiles/Final.dir/src/main.c.obj: \
  c:\mingw\lib\gcc\mingw32\8.2.0\include\stddef.h \
  c:\mingw\include\sys/types.h \
  c:\mingw\lib\gcc\mingw32\8.2.0\include\stdarg.h c:\mingw\include\math.h \
- c:\mingw\include\limits.h D:/C\ Language/FINAL_PUBLIC/include/map.h \
+ c:\mingw\include\string.h c:\mingw\include\strings.h \
+ c:\mingw\include\wchar.h D:/C\ Language/FINAL_PUBLIC/include/map.h \
  c:\mingw\include\stdlib.h c:\mingw\include\alloca.h \
  D:/C\ Language/FINAL_PUBLIC/include/bool.h \
  D:/C\ Language/FINAL_PUBLIC/include/SDL2/SDL.h \
@@ -66,6 +67,6 @@ CMakeFiles/Final.dir/src/main.c.obj: \
  D:/C\ Language/FINAL_PUBLIC/include/SDL2/SDL.h \
  D:/C\ Language/FINAL_PUBLIC/include/bool.h \
  D:/C\ Language/FINAL_PUBLIC/include/gui.h \
- D:/C\ Language/FINAL_PUBLIC/include/find_way.h \
+ D:/C\ Language/FINAL_PUBLIC/include/find_way.h c:\mingw\include\limits.h \
  D:/C\ Language/FINAL_PUBLIC/include/a_star.h \
  D:/C\ Language/FINAL_PUBLIC/include/find_way_genetic.h

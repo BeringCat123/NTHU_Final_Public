@@ -35,7 +35,7 @@ NODE move_right(NODE);
 NODE turn_count(NODE);
 NODE turn_clock(NODE);
 
-STEP A_star(MAP,int,int,SDL_Window** window,SDL_Surface** screenSurface,SDL_Surface** gui_texture);
+STEP A_star(MAP,int,int,int,SDL_Window** window,SDL_Surface** screenSurface,SDL_Surface** gui_texture);
 
 byte can_move(MAP,NODE);
 

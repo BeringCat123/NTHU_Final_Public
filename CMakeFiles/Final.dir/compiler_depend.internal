@@ -13,7 +13,9 @@ CMakeFiles/Final.dir/src/main.c.obj
  C:/MinGW/include/sys/types.h
  C:/MinGW/lib/gcc/mingw32/8.2.0/include/stdarg.h
  C:/MinGW/include/math.h
- C:/MinGW/include/limits.h
+ C:/MinGW/include/string.h
+ C:/MinGW/include/strings.h
+ C:/MinGW/include/wchar.h
  D:/C Language/FINAL_PUBLIC/include/map.h
  C:/MinGW/include/stdlib.h
  C:/MinGW/include/alloca.h
@@ -77,6 +79,7 @@ CMakeFiles/Final.dir/src/main.c.obj
  D:/C Language/FINAL_PUBLIC/include/bool.h
  D:/C Language/FINAL_PUBLIC/include/gui.h
  D:/C Language/FINAL_PUBLIC/include/find_way.h
+ C:/MinGW/include/limits.h
  D:/C Language/FINAL_PUBLIC/include/a_star.h
  D:/C Language/FINAL_PUBLIC/include/find_way_genetic.h
 

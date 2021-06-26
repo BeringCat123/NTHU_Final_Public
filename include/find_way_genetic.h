@@ -5,7 +5,6 @@
 #include"a_star.h"
 #include"bool.h"
 #include "SDL2/SDL.h"
-#define GENE_NUM 20
 
 struct gene{
     bool is_cacul;
@@ -16,7 +15,7 @@ struct gene{
 
 typedef struct gene * GENE;
 
-STEP find_way_genetic(MAP map,SDL_Window** window,SDL_Surface** screenSurface,SDL_Surface** gui_texture);
+STEP find_way_genetic(int max_generation,int gene_num,int mutation_rate,MAP map,SDL_Window** window,SDL_Surface** screenSurface,SDL_Surface** gui_texture);
 
 GENE gene_init(int,int *);
 

@@ -12,7 +12,9 @@ CMakeFiles/Final.dir/src/main.c.obj: src/main.c \
   C:/MinGW/include/sys/types.h \
   C:/MinGW/lib/gcc/mingw32/8.2.0/include/stdarg.h \
   C:/MinGW/include/math.h \
-  C:/MinGW/include/limits.h \
+  C:/MinGW/include/string.h \
+  C:/MinGW/include/strings.h \
+  C:/MinGW/include/wchar.h \
   include/map.h \
   C:/MinGW/include/stdlib.h \
   C:/MinGW/include/alloca.h \
@@ -76,6 +78,7 @@ CMakeFiles/Final.dir/src/main.c.obj: src/main.c \
   include/bool.h \
   include/gui.h \
   include/find_way.h \
+  C:/MinGW/include/limits.h \
   include/a_star.h \
   include/find_way_genetic.h
 
@@ -126,13 +129,23 @@ include/SDL2/SDL_endian.h:
 
 include/SDL2/SDL_platform.h:
 
-C:/MinGW/include/limits.h:
-
 C:/MinGW/lib/gcc/mingw32/8.2.0/include/stdarg.h:
 
 include/SDL2/begin_code.h:
 
 C:/MinGW/include/math.h:
+
+C:/MinGW/include/string.h:
+
+include/SDL2/SDL_gesture.h:
+
+C:/MinGW/include/strings.h:
+
+include/SDL2/SDL_version.h:
+
+C:/MinGW/include/process.h:
+
+C:/MinGW/include/wchar.h:
 
 C:/MinGW/include/alloca.h:
 
@@ -164,15 +177,7 @@ include/SDL2/SDL_log.h:
 
 include/SDL2/SDL_assert.h:
 
-include/SDL2/SDL_timer.h:
-
 include/SDL2/SDL_atomic.h:
-
-include/SDL2/SDL_version.h:
-
-C:/MinGW/include/process.h:
-
-include/SDL2/SDL_system.h:
 
 include/SDL2/SDL_events.h:
 
@@ -204,13 +209,15 @@ include/SDL2/SDL_hints.h:
 
 include/SDL2/SDL_gamecontroller.h:
 
-include/SDL2/SDL_gesture.h:
-
 include/SDL2/SDL_touch.h:
 
 include/SDL2/SDL_filesystem.h:
 
 include/SDL2/SDL_power.h:
+
+include/SDL2/SDL_system.h:
+
+include/SDL2/SDL_timer.h:
 
 include/SDL2/SDL_locale.h:
 
@@ -221,3 +228,5 @@ include/a_star.h:
 include/gui.h:
 
 include/find_way.h:
+
+C:/MinGW/include/limits.h:
